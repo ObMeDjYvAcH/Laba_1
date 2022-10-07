@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 val resultTextMessages :LinearLayout = findViewById(R.id.resultTextMessages)
-        for(i in 1..2){
+        for(i in 1..3){
             val dog = dog()
             val cat = cat()
 
